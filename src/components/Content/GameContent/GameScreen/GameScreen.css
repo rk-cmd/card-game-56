@@ -1,0 +1,14 @@
+.blinking {
+    animation: blinker 1.5s ease infinite;
+}
+  
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+
+.rotateImage {
+  transform: rotate(180deg);
+  /* transition: 0.5s; */
+}
